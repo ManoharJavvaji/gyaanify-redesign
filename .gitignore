@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Firebase local files
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
+
+# Local secrets and credentials
+secrets/
+*.pem
+*.key
+service-account*.json
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Node dependencies, if present
+node_modules/
